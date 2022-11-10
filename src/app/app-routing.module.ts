@@ -8,7 +8,7 @@ import { ListComponent } from './pedido/list/list.component';
 const routes: Routes = [
   {
   path: "",
-  redirectTo: "pedido/home",
+  redirectTo: "pedido/list",
   pathMatch: "full",
   },
     {

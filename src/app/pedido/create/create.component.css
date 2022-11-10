@@ -1,3 +1,11 @@
+.titulo-card{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 800px;
+  margin-right: 800px;
+  text-align: center;
+}
+
 form{
   display: flex;
   flex-direction: column;
@@ -13,10 +21,6 @@ button{
 
 mat-error{
   font-size: smaller;
-}
-
-mat-card-title{
-  margin-left: 845px;
 }
 
 mat-form-field{
