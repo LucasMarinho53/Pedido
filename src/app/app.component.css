@@ -1,0 +1,17 @@
+.btn-menu-container{
+  margin-left: 15px;
+  padding-left: 1400px;
+}
+
+.footer{
+  padding: 20px;
+  position: absolute;
+  margin: 0;
+  bottom: 0;
+  height: 55px;
+}
+
+h4 {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,3 @@
+{
+  "produtos": [{"nome": "Batata", "quantidade": 1, "endereco": "Rua tal", "cliente": "Lucas", "categoria": "Biscoitos"}]
+}

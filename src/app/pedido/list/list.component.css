@@ -1,0 +1,50 @@
+mat-card{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 800px;
+  margin-right: 800px;
+  text-align: center;
+}
+
+mat-icon{
+  margin-left: 20px;
+}
+
+.title{
+  margin-inline: 5%;
+  font-weight: bolder;
+}
+
+table{
+  width: 90%;
+  margin-inline: 5%;
+}
+
+.full-width{
+  font-size: 14px;
+  width: 100%;
+}
+
+.btn-table-container{
+  padding-bottom: 16px;
+}
+
+.btn-table{
+  margin-left: 8px;
+}
+
+td > a{
+  text-decoration: none;
+}
+
+td#editar > a{
+  color: blue;
+}
+
+td#excluir >a{
+  color: red;
+}
+
+.mat-icon{
+  vertical-align: middle;
+}

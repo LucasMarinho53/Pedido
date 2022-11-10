@@ -1,0 +1,37 @@
+<mat-card>
+  <mat-card-title>Faça seu Pedido</mat-card-title>
+  <form [formGroup]="produtoForm">
+    <mat-form-field>
+      <input matInput placeholder="Nome da Comida" formControlName="nome" required>
+    </mat-form-field>
+    <mat-error *ngIf="nome.errors?.['required']">
+      <i style="color: red;">Campo obrigatório</i>
+    </mat-error>
+    <mat-form-field>
+      <input matInput placeholder="Quantidade" formControlName="quantidade" required>
+    </mat-form-field>
+    <mat-error *ngIf="quantidade.errors?.['required']">
+      <i style="color: red;">Campo obrigatório</i>
+    </mat-error>
+    <mat-form-field>
+      <input matInput placeholder="Endereço de Entrega" formControlName="endereco" required>
+    </mat-form-field>
+    <mat-error *ngIf="endereco.errors?.['required']">
+      <i style="color: red;">Campo obrigatório</i>
+    </mat-error>
+    <mat-form-field>
+      <input matInput placeholder="Seu Nome" formControlName="cliente" required>
+    </mat-form-field>
+    <mat-error *ngIf="cliente.errors?.['required']">
+      <i style="color: red;">Campo obrigatório</i>
+    </mat-error>
+    <mat-form-field>
+      <input matInput placeholder="Categoria" formControlName="categoria" required>
+    </mat-form-field>
+    <mat-error *ngIf="categoria.errors?.['required']">
+      <i style="color: red;">Campo obrigatório</i>
+    </mat-error>
+    <button mat-raised-button type="submit" [disabled]=" produtoForm.invalid" (click)="editar()">Editar</button>
+  </form>
+  <div>{{ msg }}</div>
+</mat-card>
